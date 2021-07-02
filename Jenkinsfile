@@ -21,8 +21,8 @@ pipeline {
                             sshPublisherDesc(
                                 configName: 'staging',
                                 sshCredentials: [
-                                    username: "ubuntu",
-                                    encryptedPassphrase: ""
+                                    username: "buiquanglam",
+                                    encryptedPassphrase: "2737fb4b3e4f410fa7c9cdc0b724ae18"
                                 ], 
                                 transfers: [
                                     sshTransfer(
